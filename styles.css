@@ -1,17 +1,5 @@
 /* I got some of my ideas from https://www.w3schools.com/ */
 
-/* #cs1300 {
-    background-color: white;
-    height: 800px;
-    width: auto;
-} */
-
-#myHeader {
-    /* text-align: center; */
-    /* padding: 5px 0; */
-    /* height: 50px; */
-}
-
 .lists {
     border: 5px solid rgb(142, 79, 79);
     align-items: center;
@@ -19,12 +7,16 @@
 
 .image {
     display: flex;
-    
-    /* padding: 10px; */
     justify-content: center;
     justify-content: space-around;
     flex-wrap: wrap;
 }
+
+.sketch {
+    margin: 30px;
+    border: 5px solid rgb(142, 79, 79);
+}
+
 .gallery {
     border: 5px solid rgb(142, 79, 79);
     float: left;
@@ -38,8 +30,6 @@
 }
 
 .story {
-    /* border: 1px solid #ccc; */
-    /* float: left; */
     width: 400px;
     height: 500px;
 }
@@ -50,6 +40,8 @@
 }
 
 .title {
+    margin-top: 80px;
+    
     font-size: large;
     font-family: 'Courier New', Courier, monospace;
 }
@@ -57,17 +49,6 @@
 .description {
     word-wrap: normal;
     padding: 16px;
-}
-
-img {
-    /* border: 1px solid #ddd; */
-    /* border-radius: 50%; */
-    padding: 40px;
-    /* width: 50%; */
-    /* height: auto; */
-    /* display: block; */
-    /* margin-left: auto;
-    margin-right: auto; */
 }
 
 .header {
@@ -98,7 +79,3 @@ img {
 .sticky + .content {
     padding-top: 100px;
 }
-
-/* img:hover {
-    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
-} */
